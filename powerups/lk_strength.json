@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"lk_strength": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	
+	"rewards": {
+		"commands": [
+			"/effect @s clear",
+			"/effect @s minecraft:strength 1 3",
+			"/advancement grant @p only laki:powerups/reset_leaderboard",
+			
+			"/advancement revoke @s only laki:powerups/lk_strength"
+		]
+	}
+}

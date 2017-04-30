@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"reset_leaderboard": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	
+	"rewards": {
+		"commands": [
+			"/scoreboard players set @a powerup 0",
+			
+			"/advancement revoke @s only laki:powerups/reset_leaderboard"
+		]
+	}
+}

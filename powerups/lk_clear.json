@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"lk_clear": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	
+	"rewards": {
+		"commands": [
+			"/effect @s clear",
+			
+			"/advancement revoke @s only laki:powerups/lk_clear"
+		]
+	}
+}
