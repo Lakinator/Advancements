@@ -9,9 +9,9 @@
 		"commands": [
 			"/effect @s clear",
 			"/effect @s minecraft:speed 1 3",
-			"/advancement grant @p only laki:powerups/reset_leaderboard",
+			"/advancement grant @p only powerups:reset_leaderboard",
 			
-			"/advancement revoke @s only laki:powerups/lk_speed"
+			"/advancement revoke @s only powerups:lk_speed"
 		]
 	}
 }
