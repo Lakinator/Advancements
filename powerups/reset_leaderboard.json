@@ -9,7 +9,7 @@
 		"commands": [
 			"/scoreboard players set @a powerup 0",
 			
-			"/advancement revoke @s only laki:powerups/reset_leaderboard"
+			"/advancement revoke @s only powerups:reset_leaderboard"
 		]
 	}
 }
