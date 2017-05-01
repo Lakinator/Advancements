@@ -15,15 +15,15 @@
 			"/scoreboard players set @a powerup 4 {Inventory:[{Slot:-106b,id:\"minecraft:diamond_block\",Count:1b}]}",
 			
 			
-			"/execute @p[score_powerup_min=4] ~ ~ ~ /advancement grant @p only laki:powerups/lk_strength",
-			"/execute @p[score_powerup_min=3] ~ ~ ~ /advancement grant @p only laki:powerups/lk_speed",
-			"/execute @p[score_powerup_min=2] ~ ~ ~ /advancement grant @p only laki:powerups/lk_jump",
-			"/execute @p[score_powerup_min=1] ~ ~ ~ /advancement grant @p only laki:powerups/lk_clear",
+			"/execute @p[score_powerup_min=4] ~ ~ ~ /advancement grant @p only powerups:lk_strength",
+			"/execute @p[score_powerup_min=3] ~ ~ ~ /advancement grant @p only powerups:lk_speed",
+			"/execute @p[score_powerup_min=2] ~ ~ ~ /advancement grant @p only powerups:lk_jump",
+			"/execute @p[score_powerup_min=1] ~ ~ ~ /advancement grant @p only powerups:lk_clear",
 			
 			
 			"/scoreboard objectives remove powerup",
 			
-			"/advancement revoke @s only laki:powerups/main"
+			"/advancement revoke @s only powerups:main"
 		]
 	}
 }
